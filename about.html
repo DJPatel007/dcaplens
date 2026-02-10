@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | DCapLens Photography</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+
+    <!-- Brand / Logo -->
+    <div class="brand">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo.png" alt="DCapLens Photography Logo" class="logo-img" />
+        <span>DCapLens</span>
+      </a>
+    </div>
+
+    <!-- Menu -->
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="packages.html">Packages</a>
+      <a href="about.html">About</a>
+      <a href="booking.html" class="btn">Book Now</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">About</h2>
+    <p class="section-desc">
+      Hi! I’m the photographer behind <b>DCapLens Photography</b>.
+      I specialize in Baby Bump, Newborn, and Portrait photography in Mississauga / GTA.
+    </p>
+
+    <div class="card">
+      <h3>My Style</h3>
+      <p>Warm tones, soft edits, natural expressions — I focus on capturing emotions you can feel.</p>
+      <p style="margin-top:10px;color:var(--muted);">📍 ᴍɪssɪssᴀᴜɢᴀ / ɢᴛᴀ</p>
+    </div>
+
+    <div style="margin-top:22px;">
+      <a class="btn" href="booking.html">Book a Session</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+  <img src="assets/logo.png" alt="DCapLens Photography Logo" style="height:28px;width:auto;">
+  <span>© <span id="year"></span> DCapLens Photography — Mississauga / GTA</span>
+</div>
+    <div><a href="portfolio.html">Portfolio</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>

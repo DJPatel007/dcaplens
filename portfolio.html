@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | DCapLens Photography</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+
+    <!-- Brand / Logo -->
+    <div class="brand">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo.png" alt="DCapLens Photography Logo" class="logo-img" />
+        <span>DCapLens</span>
+      </a>
+    </div>
+
+    <!-- Menu -->
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="packages.html">Packages</a>
+      <a href="about.html">About</a>
+      <a href="booking.html" class="btn">Book Now</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Portfolio</h2>
+    <p class="section-desc">Thank You</p>
+
+    <div class="gallery">
+      <div class="photo"><img src="assets/img1.jpeg" alt=""></div>
+      <div class="photo"><img src="assets/img2.jpeg" alt=""></div>
+      <div class="photo"><img src="assets/img4.jpeg" alt=""></div>
+      <div class="photo"><img src="assets/img8.jpeg" alt=""></div>
+      <div class="photo"><img src="assets/img9.jpeg" alt=""></div>
+      <div class="photo"><img src="assets/img7.jpeg" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+  <img src="assets/logo.png" alt="DCapLens Photography Logo" style="height:28px;width:auto;">
+  <span>© <span id="year"></span> DCapLens Photography — Mississauga / GTA</span>
+</div>
+    <div><a href="booking.html">Book Now</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
