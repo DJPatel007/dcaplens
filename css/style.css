@@ -32,6 +32,7 @@ img {
   margin: auto;
 }
 
+
 /* =============================
    NAVBAR (GLASS LUXURY STYLE)
    ============================= */
@@ -342,3 +343,8 @@ img {
   }
 }
 
+@supports not (backdrop-filter: blur(10px)) {
+  .nav, .card, .form-wrap {
+    background: rgba(0,0,0,0.85);
+  }
+}
