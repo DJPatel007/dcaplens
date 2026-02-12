@@ -276,7 +276,7 @@ img {
 }
 
 .footer-grid {
-  display: flex;
+  display: bottom;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
