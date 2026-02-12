@@ -20,14 +20,14 @@
     </div>
 
     <!-- Menu -->
-    <nav class="menu">
+    <nav class="menu" id="mobileMenu">
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="packages.html">Packages</a>
       <a href="about.html">About</a>
       <a href="booking.html" class="btn">Book Now</a>
     </nav>
-
+   <div class="hamburger" onclick="toggleMenu()">☰</div>
   </div>
 </header>
 <section class="section">
@@ -39,7 +39,7 @@
       Fill out the form below and I’ll contact you within 24 hours.
     </p>
 
-    <div class="form-wrap">
+    <div class="form-wrap" style="max-width:800px; margin:auto;">
       <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSeRz0vGx6v5iAge7y8BKZNbaYCM69AD1G3qxX8IfZdojsrKzA/viewform?embedded=true">
       </iframe>
@@ -62,6 +62,7 @@
     <div><a href="index.html">Home</a></div>
   </div>
 </footer>
+  <script src="js/main.js"></script>
 
 <script>
   document.getElementById("year").innerText = new Date().getFullYear();
