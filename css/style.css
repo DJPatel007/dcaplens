@@ -2,6 +2,9 @@
 /* =============================
    GLOBAL LUXURY PHOTOGRAPHY THEME
    ============================= */
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
