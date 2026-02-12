@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="DCapLens Photography in Mississauga & GTA specializing in newborn, maternity, and portrait photography. Book your session today.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DCapLens Photography | Mississauga / GTA</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
   <header class="nav">
   <div class="container nav-inner">
-
     <!-- Brand / Logo -->
     <div class="brand">
       <a href="index.html" class="logo-link">
@@ -20,14 +22,14 @@
     </div>
 
     <!-- Menu -->
-    <nav class="menu">
+    <nav class="menu" id="mobileMenu">
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="packages.html">Packages</a>
       <a href="about.html">About</a>
       <a href="booking.html" class="btn">Book Now</a>
     </nav>
-
+   <div class="hamburger" onclick="toggleMenu()">☰</div>
   </div>
 </header>
 
@@ -35,8 +37,7 @@
     <div class="container hero-grid">
       <div>
         <h1>Baby Bump • Newborn • Portraits</h1>
-        <p class="subtitle">📍 ᴍɪssɪssᴀᴜɢᴀ / ɢᴛᴀ — Capturing emotions you can feel. Every frame 🖼️ tells a story ❤️</p>
-
+    <p class="subtitle">Mississauga / GTA — Capturing emotions you can feel. Every frame tells a story.</p>
         <div class="hero-actions">
           <a class="btn" href="booking.html">Book a Session</a>
           <a class="btn-outline" href="portfolio.html">View Portfolio</a>
@@ -68,19 +69,19 @@
 
       <div class="grid-3">
         <div class="card">
-          <h3>🤰 Baby Bump</h3>
+          <h3>Baby Bump</h3>
           <p>Elegant maternity sessions — studio or outdoor. Soft tones, natural emotion.</p>
         </div>
         <div class="card">
-          <h3>👶 Newborn</h3>
+          <h3>Newborn</h3>
           <p>Safe, gentle newborn sessions with beautiful wraps, props, and cozy setups.</p>
         </div>
         <div class="card">
-          <h3>📸 Portraits</h3>
+          <h3>Portraits</h3>
           <p>Personal branding, couple portraits, family moments, and lifestyle sessions.</p>
         </div>
         <div class="card">
-          <h3>Mile Stone Photography</h3>
+          <h3>Milestone Photography</h3>
           <p>Celebrate every stage with milestone photos you’ll cherish forever.</p>
         </div>
       </div>
@@ -93,9 +94,9 @@
       <p class="section-desc">A small preview — visit the Portfolio page for more.</p>
 
       <div class="gallery">
-        <div class="photo"><img src="assets/img0.jpeg" alt=""></div>
-        <div class="photo"><img src="assets/img3.jpeg" alt=""></div>
-        <div class="photo"><img src="assets/img6.jpeg" alt=""></div>
+        <img src="assets/img0.jpeg" loading="lazy" alt="Newborn baby photography Mississauga">
+        <img src="assets/img3.jpeg" loading="lazy" alt="Maternity photoshoot Mississauga">
+        <img src="assets/img6.jpeg" loading="lazy" alt="Family portrait photography GTA">
       </div>
     </div>
   </section>
